@@ -302,14 +302,32 @@ if (time.isBetween(time8am, time9am)) {
 } else if (time.isBetween(time4pm, time5pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
+    // var input9am = localStorage.getItem("key9am");
+    $("#9amtext").text(" ");
     $("#10am").attr("class","col-lg-9 past")
+    // var input10am = localStorage.getItem("key10am");
+    $("#10amtext").text(" ");
     $("#11am").attr("class","col-lg-9 past")
+    // var input11am = localStorage.getItem("key11am");
+    $("#11amtext").text(" ");
     $("#12pm").attr("class","col-lg-9 past")
+    // var input12pm = localStorage.getItem("key12pm");
+    $("#12pmtext").text(" ");
     $("#1pm").attr("class","col-lg-9 past")
+    // var input1pm = localStorage.getItem("key1pm");
+    $("#1pmtext").text(" ");
     $("#2pm").attr("class","col-lg-9 past")
+    // var input2pm = localStorage.getItem("key2pm");
+    $("#2pmtext").text(" ");
     $("#3pm").attr("class","col-lg-9 past")
+    // var input3pm = localStorage.getItem("key3pm");
+    $("#3pmtext").text(" ");
     $("#4pm").attr("class","col-lg-9 past")
+    // var input4pm = localStorage.getItem("key4pm");
+    $("#4pmtext").text(" ");
     $("#5pm").attr("class","col-lg-9 present")
+    var input5pm = localStorage.getItem("key5pm");
+    $("#5pmtext").text(input5pm);
 
  console.log('is between 4 pm - 5 pm')
  console.log(time);
