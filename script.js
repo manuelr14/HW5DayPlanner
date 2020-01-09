@@ -15,6 +15,7 @@ var format = 'hh:mm:ss'
 
 // var time = moment() gives you current time. no format required.
 var time = moment();
+  
   time8am = moment('08:00:00', format);
   time9am = moment('09:00:00', format);
   time10am = moment('10:00:00', format);
@@ -54,7 +55,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#4pm").attr("class","col-lg-9 future")
     $("#5pm").attr("class","col-lg-9 future")
 
-    console.log('is between aquiles')
+    console.log('is between 9am - 10am')
     console.log(time);
 
 } else if (time.isBetween(time10am, time11am)) {
@@ -71,7 +72,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#5pm").attr("class","col-lg-9 future")
  
 
- console.log('is between')
+ console.log('is between 10am - 11am')
  console.log(time);
 
 } else if (time.isBetween(time11am, time12pm)) {
@@ -86,7 +87,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#4pm").attr("class","col-lg-9 future")
     $("#5pm").attr("class","col-lg-9 future")
 
- console.log('is between 12am 1pm')
+ console.log('is between 11am - 12pm')
  console.log(time);
 
 } else if (time.isBetween(time12pm, time1pm)) {
@@ -102,7 +103,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#5pm").attr("class","col-lg-9 future")
 
 
-    console.log('is between 12am 1pm')
+    console.log('is between 12am - 1pm')
     console.log(time);
    
 
@@ -118,7 +119,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#4pm").attr("class","col-lg-9 future")
     $("#5pm").attr("class","col-lg-9 future")
 
- console.log('is between 1pm 2pm')
+ console.log('is between 1pm - 2pm')
  console.log(time);
 
 } else if (time.isBetween(time2pm, time3pm)) {
@@ -134,7 +135,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#5pm").attr("class","col-lg-9 future")
 
 
- console.log('is between 2pm 3pm')
+ console.log('is between 2pm - 3pm')
  console.log(time);
 
 } else if  (time.isBetween(time3pm, time4pm)) {
@@ -150,7 +151,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#5pm").attr("class","col-lg-9 future")
 
 
- console.log('is between 3pm 4pm')
+ console.log('is between 3pm - 4pm')
  console.log(time);
 
 } else if (time.isBetween(time4pm, time5pm)) {
@@ -164,7 +165,8 @@ if (time.isBetween(time8am, time9am)) {
     $("#3pm").attr("class","col-lg-9 past")
     $("#4pm").attr("class","col-lg-9 past")
     $("#5pm").attr("class","col-lg-9 present")
- console.log('is between 4 pm 5 pm')
+
+ console.log('is between 4 pm - 5 pm')
  console.log(time);
 
 
