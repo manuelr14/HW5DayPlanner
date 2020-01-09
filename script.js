@@ -248,10 +248,10 @@ if (time.isBetween(time8am, time9am)) {
     $("#1pm").attr("class","col-lg-9 past")
     localStorage.removeItem("key1pm")
     $("#1pmtext").text(input1pm);
-    $("#2pm").attr("class","col-lg-9 past")
-    localStorage.removeItem("key2pm")
+    $("#2pm").attr("class","col-lg-9 present")
+    var input2pm = localStorage.getItem("key2pm");
     $("#2pmtext").text(input2pm);
-    $("#3pm").attr("class","col-lg-9 present")
+    $("#3pm").attr("class","col-lg-9 future")
     var input3pm = localStorage.getItem("key3pm");
     $("#3pmtext").text(input3pm);
     $("#4pm").attr("class","col-lg-9 future")
