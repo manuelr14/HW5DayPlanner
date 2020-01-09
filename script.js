@@ -6,8 +6,13 @@ function setTime() {
    setInterval(function() {
         var today=moment().format('MMMM Do YYYY, h:mm:ss a');
         $("#currentDay").text(today);
-    }, 1000);
-  }
+
+
+
+
+
+}, 1000);
+}
 
 setTime();
 
@@ -53,8 +58,8 @@ if (time.isBetween(time8am, time9am)) {
     $("#4pm").attr("class","col-lg-9 future")
     $("#5pm").attr("class","col-lg-9 future")
 
-    console.log('is between 9am - 10am')
-    console.log(time);
+    // console.log('is between 9am - 10am')
+    // console.log(time);
 
 } else if (time.isBetween(time10am, time11am)) {
 
@@ -188,3 +193,107 @@ else {
     console.log('is not between')
     console.log(time);
 }
+
+$("#9amsave").on("click", function() {
+
+// get the text
+var text = $('#9amtext').val();
+console.log(text);
+ 
+localStorage.setItem("key", text);
+var input9am = localStorage.getItem("key");
+console.log(input9am);
+});
+
+$("#10amsave").on("click", function() {
+
+    // get the text
+    var text = $('#10amtext').val();
+    console.log(text);
+     
+    localStorage.setItem("key", text);
+    var input10am = localStorage.getItem("key");
+    console.log(input10am);
+    });
+
+$("#9amsave").on("click", function() {
+
+// get the text
+var text = $('#11amtext').val();
+console.log(text);
+ 
+localStorage.setItem("key", text);
+var input11am = localStorage.getItem("key");
+console.log(input11am);
+});
+
+$("#12pmsave").on("click", function() {
+
+    // get the text
+    var text = $('#12pmtext').val();
+    console.log(text);
+     
+    localStorage.setItem("key", text);
+    var input12pm = localStorage.getItem("key");
+    console.log(input12pm);
+    });
+
+$("#1pmsave").on("click", function() {
+
+// get the text
+var text = $('#1pmtext').val();
+console.log(text);
+ 
+localStorage.setItem("key", text);
+var input1pm = localStorage.getItem("key");
+console.log(input1pm);
+});
+
+$("#2pmsave").on("click", function() {
+
+    // get the text
+    var text = $('#2pmtext').val();
+    console.log(text);
+     
+    localStorage.setItem("key", text);
+    var input2pm = localStorage.getItem("key");
+    console.log(input2pm);
+    });
+
+$("#3pmsave").on("click", function() {
+
+// get the text
+var text = $('#3pmtext').val();
+console.log(text);
+ 
+localStorage.setItem("key", text);
+var input3pm = localStorage.getItem("key");
+console.log(input3pm);
+});   
+
+$("#4pmsave").on("click", function() {
+
+    // get the text
+    var text = $('#4pmtext').val();
+    console.log(text);
+     
+    localStorage.setItem("key", text);
+    var input4pm = localStorage.getItem("key");
+    console.log(input4pm);
+    });
+
+$("#5pmsave").on("click", function() {
+
+// get the text
+var text = $('#5pmtext').val();
+console.log(text);
+ 
+localStorage.setItem("key", text);
+var input5pm = localStorage.getItem("key");
+console.log(input5pm);
+});
+
+// set the item in localStorage
+
+
+// alert the value to check if we got it
