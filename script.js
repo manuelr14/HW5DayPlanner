@@ -29,8 +29,9 @@ var time = moment();
   time3pm = moment('15:00:00', format);
   time4pm = moment('16:00:00', format);
   time5pm = moment('17:00:00', format);
+  time6pm = moment('18:00:00', format);
 
-if (time.isBetween(time8am, time9am)) {
+if (time.isBetween(time9am, time10am)) {
 
     $("#9am").attr("class","col-lg-9 present")
     var input9am = localStorage.getItem("key9am");
@@ -63,7 +64,7 @@ if (time.isBetween(time8am, time9am)) {
   console.log('is between')
   console.log(time);
 
-} else if  (time.isBetween(time9am, time10am)) {
+} else if  (time.isBetween(time10am, time11am)) {
   
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
@@ -96,7 +97,7 @@ if (time.isBetween(time8am, time9am)) {
     // console.log('is between 9am - 10am')
     // console.log(time);
 
-} else if (time.isBetween(time10am, time11am)) {
+} else if (time.isBetween(time11am, time12pm)) {
 
 
     $("#9am").attr("class","col-lg-9 past")
@@ -131,7 +132,7 @@ if (time.isBetween(time8am, time9am)) {
  console.log('is between 10am - 11am')
  console.log(time);
 
-} else if (time.isBetween(time11am, time12pm)) {
+} else if (time.isBetween(time12pm, time1pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
@@ -164,7 +165,7 @@ if (time.isBetween(time8am, time9am)) {
  console.log('is between 11am - 12pm')
  console.log(time);
 
-} else if (time.isBetween(time12pm, time1pm)) {
+} else if (time.isBetween(time1pm, time2pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
@@ -198,7 +199,7 @@ if (time.isBetween(time8am, time9am)) {
     console.log(time);
    
 
-} else if (time.isBetween(time1pm, time2pm)) {
+} else if (time.isBetween(time2pm, time3pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
@@ -231,7 +232,7 @@ if (time.isBetween(time8am, time9am)) {
  console.log('is between 1pm - 2pm')
  console.log(time);
 
-} else if (time.isBetween(time2pm, time3pm)) {
+} else if (time.isBetween(time3pm, time4pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
@@ -266,7 +267,7 @@ if (time.isBetween(time8am, time9am)) {
  console.log('is between 2pm - 3pm')
  console.log(time);
 
-} else if  (time.isBetween(time3pm, time4pm)) {
+} else if  (time.isBetween(time4pm, time5pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
@@ -299,7 +300,7 @@ if (time.isBetween(time8am, time9am)) {
  console.log('is between 3pm - 4pm')
  console.log(time);
 
-} else if (time.isBetween(time4pm, time5pm)) {
+} else if (time.isBetween(time5pm, time6pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
     localStorage.removeItem("key9am")
