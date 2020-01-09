@@ -194,36 +194,42 @@ else {
     console.log(time);
 }
 
+
+
 $("#9amsave").on("click", function() {
 
 // get the text
 var text = $('#9amtext').val();
+localStorage.setItem("key9am", text);
 console.log(text);
  
-localStorage.setItem("key", text);
-var input9am = localStorage.getItem("key");
+localStorage.setItem("key9am", text);
+var input9am = localStorage.getItem("key9am");
 console.log(input9am);
 });
 
 $("#10amsave").on("click", function() {
 
-    // get the text
-    var text = $('#10amtext').val();
-    console.log(text);
+    
+// get the text
+var text = $('#10amtext').val();
+localStorage.setItem("key10am", text);
+console.log(text);
      
-    localStorage.setItem("key", text);
-    var input10am = localStorage.getItem("key");
-    console.log(input10am);
+ 
+var input10am = localStorage.getItem("key10am");
+console.log(input10am);
     });
 
-$("#9amsave").on("click", function() {
+$("#11amsave").on("click", function() {
 
 // get the text
 var text = $('#11amtext').val();
+localStorage.setItem("key11am", text);
 console.log(text);
  
-localStorage.setItem("key", text);
-var input11am = localStorage.getItem("key");
+localStorage.setItem("key11am", text);
+var input11am = localStorage.getItem("key11am");
 console.log(input11am);
 });
 
@@ -231,10 +237,11 @@ $("#12pmsave").on("click", function() {
 
     // get the text
     var text = $('#12pmtext').val();
+    localStorage.setItem("key12pm", text);
     console.log(text);
      
-    localStorage.setItem("key", text);
-    var input12pm = localStorage.getItem("key");
+    localStorage.setItem("key12pm", text);
+    var input12pm = localStorage.getItem("key12pm");
     console.log(input12pm);
     });
 
@@ -242,10 +249,11 @@ $("#1pmsave").on("click", function() {
 
 // get the text
 var text = $('#1pmtext').val();
+localStorage.setItem("key1pm", text);
 console.log(text);
  
-localStorage.setItem("key", text);
-var input1pm = localStorage.getItem("key");
+localStorage.setItem("key1pm", text);
+var input1pm = localStorage.getItem("key1pm");
 console.log(input1pm);
 });
 
@@ -253,10 +261,11 @@ $("#2pmsave").on("click", function() {
 
     // get the text
     var text = $('#2pmtext').val();
+    localStorage.setItem("key2pm", text);
     console.log(text);
      
-    localStorage.setItem("key", text);
-    var input2pm = localStorage.getItem("key");
+    localStorage.setItem("key2pm", text);
+    var input2pm = localStorage.getItem("key2pm");
     console.log(input2pm);
     });
 
@@ -264,10 +273,11 @@ $("#3pmsave").on("click", function() {
 
 // get the text
 var text = $('#3pmtext').val();
+localStorage.setItem("key3pm", text);
 console.log(text);
  
-localStorage.setItem("key", text);
-var input3pm = localStorage.getItem("key");
+localStorage.setItem("key3pm", text);
+var input3pm = localStorage.getItem("key3pm");
 console.log(input3pm);
 });   
 
@@ -275,10 +285,11 @@ $("#4pmsave").on("click", function() {
 
     // get the text
     var text = $('#4pmtext').val();
+    localStorage.setItem("key4pm", text);
     console.log(text);
      
-    localStorage.setItem("key", text);
-    var input4pm = localStorage.getItem("key");
+    localStorage.setItem("key4pm", text);
+    var input4pm = localStorage.getItem("key4pm");
     console.log(input4pm);
     });
 
@@ -286,10 +297,11 @@ $("#5pmsave").on("click", function() {
 
 // get the text
 var text = $('#5pmtext').val();
+localStorage.setItem("key5pm", text);
 console.log(text);
  
-localStorage.setItem("key", text);
-var input5pm = localStorage.getItem("key");
+localStorage.setItem("key5pm", text);
+var input5pm = localStorage.getItem("key5pm");
 console.log(input5pm);
 });
 
