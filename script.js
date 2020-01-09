@@ -12,8 +12,6 @@ function setTime() {
 setTime();
 
 var format = 'hh:mm:ss'
-
-// var time = moment() gives you current time. no format required.
 var time = moment();
   
   time8am = moment('08:00:00', format);
