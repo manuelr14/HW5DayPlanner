@@ -33,15 +33,32 @@ var time = moment();
 if (time.isBetween(time8am, time9am)) {
 
     $("#9am").attr("class","col-lg-9 present")
+    var input9am = localStorage.getItem("key9am");
+    $("#9amtext").text(input9am);
     $("#10am").attr("class","col-lg-9 future")
+    var input10am = localStorage.getItem("key10am");
+    $("#10amtext").text(input10am);
     $("#11am").attr("class","col-lg-9 future")
+    var input11am = localStorage.getItem("key11am");
+    $("#11amtext").text(input11am);
     $("#12pm").attr("class","col-lg-9 future")
+    var input12pm = localStorage.getItem("key12pm");
+    $("#12pmtext").text(input12pm);
     $("#1pm").attr("class","col-lg-9 future")
+    var input1pm = localStorage.getItem("key1pm");
+    $("#1pmtext").text(input1pm);
     $("#2pm").attr("class","col-lg-9 future")
+    var input2pm = localStorage.getItem("key2pm");
+    $("#2pmtext").text(input2pm);
     $("#3pm").attr("class","col-lg-9 future")
+    var input3pm = localStorage.getItem("key3pm");
+    $("#3pmtext").text(input3pm);
     $("#4pm").attr("class","col-lg-9 future")
+    var input4pm = localStorage.getItem("key4pm");
+    $("#4pmtext").text(input4pm);
     $("#5pm").attr("class","col-lg-9 future")
-  
+    var input5pm = localStorage.getItem("key5pm");
+    $("#5pmtext").text(input5pm);
 
   console.log('is between')
   console.log(time);
@@ -49,14 +66,32 @@ if (time.isBetween(time8am, time9am)) {
 } else if  (time.isBetween(time9am, time10am)) {
   
     $("#9am").attr("class","col-lg-9 past")
+    // var input9am = localStorage.getItem("key9am");
+    $("#9amtext").text(" ");
     $("#10am").attr("class","col-lg-9 present")
+    var input10am = localStorage.getItem("key10am");
+    $("#10amtext").text(input10am);
     $("#11am").attr("class","col-lg-9 future")
+    var input11am = localStorage.getItem("key11am");
+    $("#11amtext").text(input11am);
     $("#12pm").attr("class","col-lg-9 future")
+    var input12pm = localStorage.getItem("key12pm");
+    $("#12pmtext").text(input12pm);
     $("#1pm").attr("class","col-lg-9 future")
+    var input1pm = localStorage.getItem("key1pm");
+    $("#1pmtext").text(input1pm);
     $("#2pm").attr("class","col-lg-9 future")
+    var input2pm = localStorage.getItem("key2pm");
+    $("#2pmtext").text(input2pm);
     $("#3pm").attr("class","col-lg-9 future")
+    var input3pm = localStorage.getItem("key3pm");
+    $("#3pmtext").text(input3pm);
     $("#4pm").attr("class","col-lg-9 future")
+    var input4pm = localStorage.getItem("key4pm");
+    $("#4pmtext").text(input4pm);
     $("#5pm").attr("class","col-lg-9 future")
+    var input5pm = localStorage.getItem("key5pm");
+    $("#5pmtext").text(input5pm);
 
     // console.log('is between 9am - 10am')
     // console.log(time);
@@ -65,14 +100,32 @@ if (time.isBetween(time8am, time9am)) {
 
 
     $("#9am").attr("class","col-lg-9 past")
+    // var input9am = localStorage.getItem("key9am");
+    $("#9amtext").text(" ");
     $("#10am").attr("class","col-lg-9 past")
+    // var input10am = localStorage.getItem("key10am");
+    $("#10amtext").text(" ");
     $("#11am").attr("class","col-lg-9 present")
+    var input11am = localStorage.getItem("key11am");
+    $("#11amtext").text(input11am);
     $("#12pm").attr("class","col-lg-9 future")
+    var input12pm = localStorage.getItem("key12pm");
+    $("#12pmtext").text(input12pm);
     $("#1pm").attr("class","col-lg-9 future")
+    var input1pm = localStorage.getItem("key1pm");
+    $("#1pmtext").text(input1pm);
     $("#2pm").attr("class","col-lg-9 future")
+    var input2pm = localStorage.getItem("key2pm");
+    $("#2pmtext").text(input2pm);
     $("#3pm").attr("class","col-lg-9 future")
+    var input3pm = localStorage.getItem("key3pm");
+    $("#3pmtext").text(input3pm);
     $("#4pm").attr("class","col-lg-9 future")
+    var input4pm = localStorage.getItem("key4pm");
+    $("#4pmtext").text(input4pm);
     $("#5pm").attr("class","col-lg-9 future")
+    var input5pm = localStorage.getItem("key5pm");
+    $("#5pmtext").text(input5pm);
  
 
  console.log('is between 10am - 11am')
@@ -84,6 +137,7 @@ if (time.isBetween(time8am, time9am)) {
     $("#10am").attr("class","col-lg-9 past")
     $("#11am").attr("class","col-lg-9 past")
     $("#12pm").attr("class","col-lg-9 present")
+    $("#12pmtext").text(input9am);
     $("#1pm").attr("class","col-lg-9 future")
     $("#2pm").attr("class","col-lg-9 future")
     $("#3pm").attr("class","col-lg-9 future")
@@ -96,14 +150,32 @@ if (time.isBetween(time8am, time9am)) {
 } else if (time.isBetween(time12pm, time1pm)) {
 
     $("#9am").attr("class","col-lg-9 past")
+    var input9am = localStorage.getItem("key9am");
+    $("#9amtext").text(input9am);
     $("#10am").attr("class","col-lg-9 past")
+    var input10am = localStorage.getItem("key10am");
+    $("#10amtext").text(input10am);
     $("#11am").attr("class","col-lg-9 past")
+    var input11am = localStorage.getItem("key11am");
+    $("#11amtext").text(input11am);
     $("#12pm").attr("class","col-lg-9 past")
+    var input12pm = localStorage.getItem("key12pm");
+    $("#12pmtext").text(input12pm);
     $("#1pm").attr("class","col-lg-9 present")
+    var input1pm = localStorage.getItem("key1pm");
+    $("#1pmtext").text(input1pm);
     $("#2pm").attr("class","col-lg-9 future")
+    var input2pm = localStorage.getItem("key2pm");
+    $("#2pmtext").text(input2pm);
     $("#3pm").attr("class","col-lg-9 future")
+    var input3pm = localStorage.getItem("key3pm");
+    $("#3pmtext").text(input3pm);
     $("#4pm").attr("class","col-lg-9 future")
+    var input4pm = localStorage.getItem("key4pm");
+    $("#4pmtext").text(input4pm);
     $("#5pm").attr("class","col-lg-9 future")
+    var input5pm = localStorage.getItem("key5pm");
+    $("#5pmtext").text(input5pm);
 
 
     console.log('is between 12am - 1pm')
@@ -203,7 +275,7 @@ var text = $('#9amtext').val();
 localStorage.setItem("key9am", text);
 console.log(text);
  
-localStorage.setItem("key9am", text);
+
 var input9am = localStorage.getItem("key9am");
 console.log(input9am);
 });
