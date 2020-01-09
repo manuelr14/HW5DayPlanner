@@ -1,15 +1,10 @@
  
-// console.log(today)
-// $("#currentDay").text(today);
+
 
 function setTime() {
    setInterval(function() {
         var today=moment().format('MMMM Do YYYY, h:mm:ss a');
         $("#currentDay").text(today);
-
-
-
-
 
 }, 1000);
 }
@@ -447,7 +442,5 @@ var input5pm = localStorage.getItem("key5pm");
 console.log(input5pm);
 });
 
-// set the item in localStorage
 
 
-// alert the value to check if we got it
