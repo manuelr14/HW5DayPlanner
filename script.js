@@ -13,7 +13,7 @@ setTime();
 
 var format = 'hh:mm:ss'
 var time = moment();
-  
+ 
   time8am = moment('08:00:00', format);
   time9am = moment('09:00:00', format);
   time10am = moment('10:00:00', format);
