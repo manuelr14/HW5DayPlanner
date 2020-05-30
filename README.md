@@ -21,7 +21,7 @@ Step-3 Click on the blue botton located on the right to save the content in to t
 
 Step 4- TEST- Reload page Result -Previously entered content saved to the locaStorage should be retrieved and appear on the same time slot that was previously entered.
 
-The live page link is
+The live page link is: https://manuelr14.github.io/HW5DayPlanner/.
 
 
 
